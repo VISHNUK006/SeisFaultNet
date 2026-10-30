@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment / secrets
+.env
+.streamlit/secrets.toml
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# Model checkpoints
+models/*.pt
+models/*.pth
+*.ckpt
+
+# Raw and processed seismic data
+data/raw/
+data/processed/
+
+# Large seismic files
+*.sgy
+*.segy
+*.su
+
+# OS
+.DS_Store
+Thumbs.db
